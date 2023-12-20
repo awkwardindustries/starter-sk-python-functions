@@ -1,0 +1,11 @@
+@host = localhost
+@port = 7071
+
+### Sanity check: trigger the *https_trigger_sample* function
+
+GET http://{{host}}:{{port}}/api/http_trigger_sample 
+
+### Trigger the *orchestrate_chat_completion* function
+
+GET http://{{host}}:{{port}}/api/orchestrate_chat_completion
+
