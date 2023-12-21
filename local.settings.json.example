@@ -6,6 +6,7 @@
     "AzureWebJobsFeatureFlags": "EnableWorkerIndexing",
     "AZURE_OPEN_AI__CHAT_COMPLETION_DEPLOYMENT_NAME": "",
     "AZURE_OPEN_AI__ENDPOINT": "",
-    "AZURE_OPEN_AI__API_KEY": ""
+    "AZURE_OPEN_AI__API_KEY": "",
+    "AZURE_BING_SEARCH__API_KEY": ""
   }
 }
