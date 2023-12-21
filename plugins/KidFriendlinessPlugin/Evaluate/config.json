@@ -1,0 +1,26 @@
+{
+    "schema": 1,
+    "type": "completion",
+    "description": "Evaluates how friendly a location is to children.",
+    "completion": {
+        "max_tokens": 1000,
+        "temperature": 0.9,
+        "top_p": 0.0,
+        "presence_penalty": 0.0,
+        "frequency_penalty": 0.0
+    },
+    "input": {
+        "parameters": [
+            {
+                "name": "input",
+                "description": "The location from which to evaluate child-friendliness.",
+                "defaultValue": ""
+            },
+            {
+                "name": "searchQuery",
+                "description": "The full search query to generate the location description.",
+                "defaultValue": ""
+            }
+        ]
+    }
+}

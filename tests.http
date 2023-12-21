@@ -1,11 +1,14 @@
 @host = localhost
 @port = 7071
 
-### Sanity check: trigger the *https_trigger_sample* function
+### Trigger the *evaluate_kid_friendliness* function with query parameter
 
-GET http://{{host}}:{{port}}/api/http_trigger_sample 
+GET http://{{host}}:{{port}}/api/evaluate_kid_friendliness?location=Jackson+Heights,+Queens,+NY
 
-### Trigger the *orchestrate_chat_completion* function
+### Trigger the *evaluate_kid_friendliness* function with JSON body
 
-GET http://{{host}}:{{port}}/api/orchestrate_chat_completion
+POST http://{{host}}:{{port}}/api/evaluate_kid_friendliness
 
+{
+    "location": "downtown Oklahoma City"
+}
