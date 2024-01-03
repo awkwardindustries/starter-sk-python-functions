@@ -53,6 +53,10 @@ This codespace is a full-fledged development environment, and you can write and 
    ```sh
    python -m venv .venv
    ```
+1. Activate the Python virtual environment.  In your Visual Studio Code terminal at the project root, execute the command:
+   ```sh
+   source .venv/bin/activate
+   ```
 
 ### 2. Debug
 
